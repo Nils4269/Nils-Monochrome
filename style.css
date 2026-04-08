@@ -31,7 +31,7 @@ body {
     background-image: url(asset/bg-image-2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 48vh;
 
 }
 
@@ -67,9 +67,40 @@ a{
 
 /* TAILLE */
 
-.w-40{
-    width: 40%;
+.w30{
+    width: 30%;
 }
 .justify-center{
     justify-content: center;
 }
+
+
+   .flex{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+
+
+
+
+.mbt-1{
+    margin-bottom:  50px; ;
+}
+   .align-center{ 
+   align-items :center ; 
+   }
+
+   .space-between{
+    justify-content: space-between;
+   }
+   .container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .mt64{
+
+    margin-top: 64px;
+ }
